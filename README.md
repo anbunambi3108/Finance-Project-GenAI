@@ -9,8 +9,6 @@ As part of the Global Finance Corp (GFC) scenario, we built an assistant that:
 - Normalizes key metrics (Revenue, Net Income, Assets, Liabilities, Operating Cash Flow)  
 - Delivers fast, accurate Q&A through a **Streamlit UI**  
 
-The current MVP ensures reliability and speed with structured data. The **next step** is adding **Retrieval-Augmented Generation (RAG)** so free-text questions can be answered by an LLM, with citations to filing snippets for transparency. The solution is designed to **scale across companies**, support **caching and monitoring**, and significantly **reduce analysis time** while improving confidence in results.
-
 ---
 
 ## 📂 About the Data
