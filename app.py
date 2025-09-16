@@ -1,8 +1,8 @@
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title="Financial Chatbot UI", page_icon="💬", layout="wide")
-st.title("💬 Financial Chatbot — Microsoft, Apple, Tesla")
+st.set_page_config(page_title="Financial Chatbot", page_icon="💬", layout="wide")
+st.title("💬 Financial Chatbot")
 
 # ---------- Load data ----------
 CSV_PATH = r'C:\Users\anbun\Desktop\Portfolio projects\Finance-Project-GenAI\sec_outputs\financials.csv'  # make sure this file is in the same folder
@@ -148,14 +148,4 @@ with right:
     )
     st.line_chart(ni_pivot)
 
-# ---------- Notes ----------
-with st.expander("Notes / How this works"):
-    st.write(
-        """
-        - This app reads **financials.csv** (your scraped SEC data).
-        - It supports 4 predefined questions (rule-based).
-        - It shows the **latest fiscal year** snapshot per company, and simple trend charts.
-        - If your CSV uses “Cash Flow from Operating Activities” instead of “Operating Cash Flow”, the app will detect it.
-        - Update `financials.csv` anytime — the app will refresh with new answers.
-        """
-    )
+
