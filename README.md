@@ -1,4 +1,4 @@
-# 📊 Finance Project — GenAI-Ready Financial Assistant
+# 📊 GenAI - Financial Assistant
 
 ## 📖 About the Project
 This project demonstrates a **GenAI-ready financial assistant**.  
